@@ -37,7 +37,7 @@ let package = Package(
             name: "MyPluginForAbstraction",
             dependencies: [
                 .product(
-                    name: "ReusableToolingLib_Static",
+                    name: "ReusableToolingLib",
                     package: "iOSReusableToolingLib"
                 ),
             ]
