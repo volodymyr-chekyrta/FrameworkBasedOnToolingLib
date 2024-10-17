@@ -1,5 +1,5 @@
 {
-  "originHash" : "1e8b7b64c6ddb6be8e5874e1dd3354984f368afcb88b6d3d3134a8801a34e1d7",
+  "originHash" : "31001ca80bcb85605be9cc28dc5e312a3abe3f4b35263c3d0c2920e68eff81eb",
   "pins" : [
     {
       "identity" : "alamofire",
@@ -15,8 +15,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/volodymyr-chekyrta/iOSReusableToolingLib.git",
       "state" : {
-        "revision" : "360c112e29029a1cd780f9f533218170bb6a44c7",
-        "version" : "1.0.0"
+        "branch" : "static",
+        "revision" : "63a292044e132aeb1fc187a00835fc5cd4bde44d"
       }
     },
     {

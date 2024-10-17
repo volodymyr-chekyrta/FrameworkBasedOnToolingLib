@@ -18,11 +18,16 @@ let package = Package(
             type: .dynamic,
             targets: ["MyPluginForAbstraction"]
         ),
+        .library(
+            name: "MyPluginForAbstraction_Static",
+            type: .static,
+            targets: ["MyPluginForAbstraction"]
+        )
     ],
     dependencies: [
         .package(
             url: "https://github.com/volodymyr-chekyrta/iOSReusableToolingLib.git",
-            exact: "1.0.0"
+            branch: "static"
         ),
     ],
     targets: [
@@ -32,7 +37,7 @@ let package = Package(
             name: "MyPluginForAbstraction",
             dependencies: [
                 .product(
-                    name: "ReusableToolingLib",
+                    name: "ReusableToolingLib_Static",
                     package: "iOSReusableToolingLib"
                 ),
             ]

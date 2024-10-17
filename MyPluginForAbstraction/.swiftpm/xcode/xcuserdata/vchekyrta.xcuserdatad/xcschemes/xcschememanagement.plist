@@ -17,6 +17,11 @@
 		<key>MyPluginForAbstractionTests.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>MyPluginForAbstraction_Static.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
 			<integer>4</integer>
 		</dict>
 	</dict>
